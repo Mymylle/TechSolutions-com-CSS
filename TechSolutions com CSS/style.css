@@ -1,0 +1,79 @@
+body{
+    
+    background-color: rgb(17, 16, 16);
+    
+
+}
+#banner{
+    width: 100%;
+    height: 300px;
+    margin-left: 0px;
+
+}
+
+header{
+    text-align: center;
+    font-family: Optima, sans-serif;
+    color: rgb(255, 248, 248);
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul{
+    padding: 1px;
+    margin: 2px;
+}
+
+nav li{
+    display: inline-block;
+    padding: 20px;
+}
+
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+
+a :active{
+    color: gray;
+}
+
+a :visited{
+    color: none;
+}
+
+a :hover{
+        color: rgba(55, 197, 145, 0.975);
+    }
+
+
+.titulo1{
+    background-color: rgb(110, 112, 111);
+    color: whitesmoke;
+    margin-left: 5px;
+}
+
+.texto1{
+    font-family: Optima, sans-serif;
+    text-align: justify;
+    margin: 30px;
+    font-size: 19px;
+    color: whitesmoke;
+    
+}
+
+article{
+    color: whitesmoke;
+}
+
+article h2{
+    
+}
+
+article h3{
+
+}
