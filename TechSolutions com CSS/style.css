@@ -2,19 +2,22 @@ body{
     
     background-color: rgb(17, 16, 16);
     
-
 }
 #banner{
     width: 100%;
     height: 300px;
     margin-left: 0px;
-
+    
 }
 
 header{
     text-align: center;
     font-family: Optima, sans-serif;
     color: rgb(255, 248, 248);
+}
+
+header h4{
+    font-weight:lighter;
 }
 
 nav{
@@ -38,6 +41,11 @@ a {
     
 }
 
+a li{
+    scroll-behavior: smooth;
+
+}
+
 a :active{
     color: gray;
 }
@@ -51,13 +59,16 @@ a :hover{
     }
 
 
-.titulo1{
-    background-color: rgb(110, 112, 111);
+#titulo1{
+    
     color: whitesmoke;
     margin-left: 5px;
+    border-radius: 5px solid rgb(121, 202, 174);
 }
 
-.texto1{
+
+
+#texto1{
     font-family: Optima, sans-serif;
     text-align: justify;
     margin: 30px;
