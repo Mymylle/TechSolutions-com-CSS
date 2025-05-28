@@ -62,8 +62,13 @@ a :hover{
 #titulo1{
     
     color: whitesmoke;
-    margin-left: 5px;
-    border-radius: 5px solid rgb(121, 202, 174);
+    display: inline-block;
+    border: 5px double rgb(158, 218, 197);
+    border-top: none;
+    border-right: none ;
+    padding-left: 7px;
+    border-right-width: 10px; 
+
 }
 
 
