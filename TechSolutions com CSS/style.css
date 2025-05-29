@@ -16,6 +16,11 @@ header{
     color: rgb(255, 248, 248);
 }
 
+header h1{
+    font-size: 40px;
+
+}
+
 header h4{
     font-weight:lighter;
     font-style: italic;
@@ -61,26 +66,33 @@ a :hover{
 
 
 #titulo1{
-    
+    font-size: 35px;
     color: whitesmoke;
     display: inline-block;
     border: 5px double rgb(111, 221, 183);
     border-top: none;
     border-right: none ;
     padding-left: 7px;
-    border-right-width: 10px; 
-
+    
 }
 
 
 
 #texto1{
+    display:inline-block
     font-family: Optima, sans-serif ;
     text-align: justify;
     margin: 30px;
-    font-size: 18px;
+    font-size: 20px;
     color: whitesmoke;
+    line-height: 40px;
+    border: 2px solid rgb(111, 221, 183);
     
+    padding-left: 10px;
+    margin-left: 4px;
+    border-right: none ;
+    border-bottom: none;
+    border-top: none;
     
 }
 
