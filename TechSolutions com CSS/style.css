@@ -21,9 +21,16 @@ header h1{
 
 }
 
-header h4{
+header h5{
     font-weight:lighter;
     font-style: italic;
+}
+hr{
+    border: 1px dotted rgb(111, 221, 183);
+    height: 1px;
+    font-weight: 1px;
+    
+
 }
 
 nav{
@@ -47,7 +54,7 @@ a {
     
 }
 
-a li{
+.ali{
     scroll-behavior: smooth;
 
 }
@@ -57,12 +64,12 @@ a :active{
 }
 
 a :visited{
-    color: none;
+    color: gray;
 }
 
 a :hover{
-        color: rgba(55, 197, 145, 0.975);
-    }
+    color: rgba(55, 197, 145, 0.975);
+}
 
 
 #titulo1{
@@ -73,21 +80,22 @@ a :hover{
     border-top: none;
     border-right: none ;
     padding-left: 7px;
+    margin-left: 14px ;
     
 }
 
 
 
 #texto1{
-    display:inline-block
+    display:inline-block;
     font-family: Optima, sans-serif ;
     text-align: justify;
     margin: 30px;
     font-size: 20px;
     color: whitesmoke;
     line-height: 40px;
+
     border: 2px solid rgb(111, 221, 183);
-    
     padding-left: 10px;
     margin-left: 4px;
     border-right: none ;
@@ -98,12 +106,77 @@ a :hover{
 
 article{
     color: whitesmoke;
+    
 }
 
 article h2{
+    text-align: center;
+    width: fit-content;
+    font-size: 35px;
+    border: 2px inset rgb(111, 221, 183);
+    border-top: none;
+    border-right: none ;
+    border-left: none;
+    padding-left: 7px;
+    margin-left: 14px ;
     
 }
 
 article h3{
+    font-weight: bold;
+    font-size: 23px;
+    margin: 40px;
+}
 
+article p{
+    font-family: Candara ;
+    font-size: 19px;
+    margin: 55px;
+    
+}
+
+.left{
+    text-align: left;
+    border: 2px solid rgb(111, 221, 183);
+    padding-left: 15px;
+    margin-left: 35px;
+    border-right: none ;
+    border-bottom: none;
+    border-top: none;
+}
+
+
+.right{
+    text-align: right;
+    border: 2px solid rgb(111, 221, 183);
+    padding-right: 10px;
+    margin-right: 35px ;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+}
+
+.lefth3{
+    text-align: left;
+    display: block;
+    border: 5px double rgb(111, 221, 183);
+    border-top: none;
+    border-right: none ;
+    padding-left: 7px;
+    margin-left: 50px ;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.righth3{
+    text-align: right;
+    display: block;
+    border: 5px double rgb(111, 221, 183);
+    border-top: none;
+    border-left: none ;
+    padding-right: 7px;
+    margin-right: 50px;
+    margin-left: auto;
+    width: fit-content;
+    
 }
