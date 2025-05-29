@@ -26,16 +26,16 @@ header h5{
     font-style: italic;
 }
 hr{
-    border: 1px dotted rgb(111, 221, 183);
+    border: thin solid rgb(111, 221, 183);
     height: 1px;
-    font-weight: 1px;
-    
+    background-color: rgb(111, 221, 183);
 
 }
 
 nav{
     display: flex;
     justify-content: space-around;
+    font-family: Cananda;
 }
 nav ul{
     padding: 1px;
@@ -106,24 +106,20 @@ a :hover{
 
 article{
     color: whitesmoke;
-    
+    text-align: center;
 }
 
 article h2{
-    width: fit-content;
-    font-size: 35px;
-    border: 2px inset rgb(111, 221, 183);
+    display: inline-block;
+    font-size: 33px;
+    border: 2px outset rgb(111, 221, 183);
     border-top: none;
     border-right: none ;
     border-left: none;
     padding-left: 7px;
-    margin-left: 14px ;
-    
+      
 }
 
-.centralizar{
-    text-align: center;
-}
 
 article h3{
     font-weight: bold;
@@ -182,4 +178,58 @@ article p{
     margin-left: auto;
     width: fit-content;
     
+}
+
+.linha{
+    text-align: left;
+    background-color: rgb(222, 255, 244);
+    height: 1px;
+    margin: 1px auto;
+    width: 100%;
+}
+
+aside{
+    color: whitesmoke;
+}
+
+aside > footer{
+    flex: 1;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+    padding: 20px;
+
+}
+
+.redes, .maps{
+    flex: 1; 
+}
+
+.redes{
+   display: inline-flex;
+   align-items: center;
+   gap: 5px;
+   margin-bottom: 5px;
+   text-decoration: none;
+}
+
+
+
+.redes a:hover{
+    color: aquamarine;
+}
+
+.maps{
+    text-align: center;
+}
+
+#copyright{
+    text-align: left;
+    font-size: 13px;
+    opacity: 1;
 }
