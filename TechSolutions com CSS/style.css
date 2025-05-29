@@ -110,7 +110,6 @@ article{
 }
 
 article h2{
-    text-align: center;
     width: fit-content;
     font-size: 35px;
     border: 2px inset rgb(111, 221, 183);
@@ -120,6 +119,10 @@ article h2{
     padding-left: 7px;
     margin-left: 14px ;
     
+}
+
+.centralizar{
+    text-align: center;
 }
 
 article h3{
