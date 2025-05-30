@@ -1,3 +1,8 @@
+html{
+    scroll-behavior: smooth;
+
+}
+
 body{
     
     background-color: rgb(17, 16, 16);
@@ -25,6 +30,7 @@ header h5{
     font-weight:lighter;
     font-style: italic;
 }
+
 hr{
     border: thin solid rgb(111, 221, 183);
     height: 1px;
@@ -35,7 +41,9 @@ hr{
 nav{
     display: flex;
     justify-content: space-around;
-    font-family: Cananda, sans-serif;
+    font-family: Candara, sans-serif;
+    font-weight: bold;
+    margin: 25px;
 }
 nav ul{
     padding: 1px;
@@ -44,7 +52,11 @@ nav ul{
 
 nav li{
     display: inline-block;
-    padding: 20px;
+    padding: 25px;
+}
+
+nav a:hover{
+    color: aquamarine;
 }
 
 
@@ -54,10 +66,6 @@ a {
     
 }
 
-.ali{
-    scroll-behavior: smooth;
-
-}
 
 a :active{
     color: gray;
@@ -71,8 +79,7 @@ a :hover{
     color: rgba(55, 197, 145, 0.975);
 }
 
-
-#titulo1{
+.titulo1{
     font-size: 35px;
     color: whitesmoke;
     display: inline-block;
@@ -81,12 +88,11 @@ a :hover{
     border-right: none ;
     padding-left: 7px;
     margin-left: 14px ;
+    margin-top: 85px;
     
 }
 
-
-
-#texto1{
+.texto1{
     display:inline-block;
     font-family: Optima, sans-serif ;
     text-align: justify;
@@ -95,12 +101,10 @@ a :hover{
     color: whitesmoke;
     line-height: 40px;
 
-    border: 2px solid rgb(111, 221, 183);
+    border-left: 2px solid rgb(111, 221, 183);
     padding-left: 10px;
     margin-left: 4px;
-    border-right: none ;
-    border-bottom: none;
-    border-top: none;
+    margin-bottom: 150px;
     
 }
 
@@ -112,14 +116,11 @@ article{
 article h2{
     display: inline-block;
     font-size: 33px;
-    border: 2px outset rgb(111, 221, 183);
-    border-top: none;
-    border-right: none ;
-    border-left: none;
+    border-bottom: 2px outset rgb(111, 221, 183);
     padding-left: 7px;
-      
+    line-height: 40px;
+    margin-top: 0px;
 }
-
 
 article h3{
     font-weight: bold;
@@ -134,33 +135,29 @@ article p{
     
 }
 
+
 .left{
     text-align: left;
-    border: 2px solid rgb(111, 221, 183);
+    border-left: 2px solid rgb(111, 221, 183);
     padding-left: 15px;
     margin-left: 35px;
-    border-right: none ;
-    border-bottom: none;
-    border-top: none;
+    
 }
 
 
 .right{
     text-align: right;
-    border: 2px solid rgb(111, 221, 183);
+    border-right: 2px solid rgb(111, 221, 183);
     padding-right: 10px;
     margin-right: 35px ;
-    border-left: none;
-    border-bottom: none;
-    border-top: none;
+
 }
 
 .lefth3{
     text-align: left;
     display: block;
-    border: 5px double rgb(111, 221, 183);
-    border-top: none;
-    border-right: none ;
+    border-left: 5px double rgb(111, 221, 183);
+    border-bottom: 5px double rgb(111, 221, 183);
     padding-left: 7px;
     margin-left: 50px ;
     margin-right: auto;
@@ -179,6 +176,38 @@ article p{
     width: fit-content;
     
 }
+.membros{
+    font-family: Optima, sans-serif ;
+    text-align: center;
+    color: whitesmoke;
+    line-height: 40px;
+    margin-bottom: 20px;
+    
+}
+
+
+
+.titulomembros{
+    display: inline-block;
+    font-size: 33px;
+    border-bottom: 2px outset rgb(111, 221, 183);
+    padding-left: 7px;
+    margin: 50px;
+    margin-bottom: 20px;
+    margin-top: 85px;
+    
+}
+
+.nomes{
+    font-size: 20px;
+    color: rgb(158, 247, 225);
+    margin-top: 70px;
+    
+}
+
+.funcao{
+    font-size: 18px;
+}
 
 .linha{
     text-align: left;
@@ -186,6 +215,7 @@ article p{
     height: 1px;
     margin: 1px auto;
     width: 100%;
+    margin-top: 150px;
 }
 
 aside{
@@ -197,24 +227,24 @@ aside{
 .margem1{
     margin-left: 10px;
     gap: 5px;
+    line-height: 40px
 
 }
 
-.margem2{
-    margin-top: 25px;
-}
+.colunafooter{
+    flex: 1;
+    min-width: 200px;
+    margin: 25px;
 
-aside > footer{
-    flex: 1 1 ;
 }
 
 footer{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    align-items: flex-start;
     color: whitesmoke;
-    padding: 30px;
+    padding: 20px;
     gap: 10px;
 }
 
@@ -223,34 +253,36 @@ footer{
 }
 
 .redes{
-   display: inline-flex;
-   align-items: center;
-   flex-direction: column;
-   gap: 5px;
+
    margin-bottom: 5px;
+   margin-left: 343px;
    text-decoration: none;
+   line-height: 40px;
 }
 
+.img{
+    margin-left: 8px;
+    padding-top: 10px;
+}
 
+#contato{
+    padding-top: 3px;
+}
 
 .redes a:hover{
     color: aquamarine;
 }
 
+.maps a:hover{
+    color: aquamarine;
+}
 
 .maps {
-    text-align: right;
-    margin-top: 10px;
+    text-align: justify;
+    margin-top: 0px;
     margin-left: 5px;
-    height: 50px;
-
-    
-}
-.iframe{
-    width: 100%;
-height: 150px;
-max-width: 300px;
-
+    line-height: 40px;
+    padding-top: 0;
 }
 
 #copyright {
@@ -262,3 +294,5 @@ max-width: 300px;
     margin-bottom: 0;
     padding-bottom: none;
 }
+
+ 
